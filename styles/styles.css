@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 aside {
@@ -37,7 +39,7 @@ main img {
 }
 
 p {
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 main {
@@ -72,16 +74,20 @@ footer {
 /* class Selectors */
 .box {
     margin: 1rem;
-    border: 1 px solid rgba(0,0,0,.1);
-    padding: 1 rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #ddd;
     color: #000;
-}
+    }
+
 
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
+
 
 nav {
     background-color: steelblue;
@@ -115,4 +121,9 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+hr{
+    margin: 20px 0;
+    border: .2px solid black;
 }
