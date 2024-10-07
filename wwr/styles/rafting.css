@@ -98,6 +98,16 @@ h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
 }
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history img {
+        max-width: 300px;
+        max-height: 250px;
+        padding: 20px;
+}
 
 h2 {
     text-align: center;
