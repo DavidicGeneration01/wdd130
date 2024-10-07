@@ -8,21 +8,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/rafting.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class='logo-box'></div>
+            <div class='logo-box'>
                 <img src="images/Picture1.jpg" alt="logo" width="150" height="150">
             </div>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+                <ul class="navigation">
+                    <li>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -44,28 +43,38 @@
                 <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
             </section>
 
-            <h2>Adventure Awaits You!</h2>
+            <h2>Adventure Awaits You</h2>
             <div id="banner-box"></div>
-                <section class="banner">
-                    <img src="images/profile3.jpg" alt="banner image desc" width="400" height="250">
-                    <p>Bear River</p>
+                <section>
+                    <figure class="images">
+                       <div> <img src="images/profile3.jpg" alt="banner image desc" width="400" height="250">
+                        <figcaption>Bear River</figcaption></div>
 
-                    <img src="images/profile1.jpg" alt="Group Adventure" width="500" height="350">
-                    <p>Smokey River</p>
+                        <div>
+                            <img src="images/profile1.jpg" alt="Group Adventure" width="500" height="350">
+                        <figcaption>Smokey River</figcaption>
+                        </div>
 
-                    <img src="images/profile5.jpg" alt="Exploring" width="600" height="400">
-                    <p>Boise River</p>
+                        <div>
+                            <img src="images/profile5.jpg" alt="Exploring" width="600" height="400">
+                        <figcaption>Boise River</figcaption>
+                        </div>
+                        <div>
+                            <img src="images/profile4.jpg" alt="Water Body Exploration" width="600" height="400">
+                        <figcaption>Peaceful Rapid</figcaption>
+                        </div>
 
-                    <img src="images/profile4.jpg" alt="Water Body Exploration" width="600" height="400">
-                    <p>Peaceful Rapid</p>
-
-                    <img src="images/profile2.jpg" alt="Racing" width="400" height="300">
-                    <p>Exploration</p>
+                       <div>
+                        <img src="images/profile2.jpg" alt="Racing" width="400" height="300">
+                        <figcaption>Exploration</figcaption>
+                       </div>
+                    </figure>
                 </section>
             </div>
         </main>
         <footer>
             <p>©2024 ⚓ white Water Rafting ⚓ David Alade</p>
+            
             <nav class="sociallinks">
                 <a href="'https://facebook.com">
                     <img src="images/facebook.svg" alt="Facebook" width="75" height="75">
