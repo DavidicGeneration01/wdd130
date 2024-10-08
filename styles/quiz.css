@@ -26,7 +26,7 @@ h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: navy;
-    text-align: center;
+    /* text-align: center; */
 }
 
 form {
