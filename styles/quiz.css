@@ -74,6 +74,7 @@ li::marker {
 
 }
 
+
 main input, select, textarea {
     display: block;
     width: 100%;
@@ -90,6 +91,7 @@ p {
     width: 60%;
     margin: .8rem;
     place-content: center center;
+    font-family: Roboto sans-serif;
 
 }
 
