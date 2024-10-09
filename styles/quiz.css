@@ -9,6 +9,8 @@ body {
     font-size: 1.2em;
     color: #333;
     background-color: #eee;
+    margin: 100px;
+    border: 30;
 }
 
 header {
@@ -16,18 +18,14 @@ header {
     width: 650px;
 }
 
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
+p {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: 1em;
+    color: navy;  
 }
 
-h1 {
-    margin: 1rem;
-    font-size: 1.5em;
-    color: navy;
-    /* text-align: center; */
-}
 
 form {
     width: 650px;
