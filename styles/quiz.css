@@ -15,8 +15,10 @@ body {
     padding: 2rem;
 }
 
-.flex {
+.form {
     display: flex;
+    max-width: 650px;
+    margin:0 auto;
 }
 .flexx {
     display: flex;
