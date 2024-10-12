@@ -266,6 +266,11 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
+.contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 button {
     margin: 1rem;
     background-color: #007BFF;
