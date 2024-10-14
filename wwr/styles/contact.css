@@ -58,23 +58,35 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-	border-bottom: 1px solid #ccc;
 }
 
 header nav a {
     text-decoration: none;
 }
 
-.hero {
+/* .hero {
     position: relative;
     background-color: #191970;    
+} */
+
+.hero-msg {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* padding-top: 0; */
+    color: white;    
+    width: 900px;
+    text-align: center;
 }
 
 .hero img {
     width: 100%;
-    height: 100%;
+    height: 20%;
     object-fit: cover;
-    opacity: .5;
+    /* opacity: .5; */
 }
 
 
@@ -82,29 +94,16 @@ header nav a {
     padding: 20px 15px;
     /* border: 2px solid #726f6f; */
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background: midnightblue;
+    color: #fff;
  }
- .hero .hero-msg p{
+ .hero .hero-msg p {
         padding: 20px 15px;
-        text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.933);
-        font-size: 1.2rem;
+        text-shadow: 4px 7px 10px rgba(2, 3, 69, 0.9);
+        font-size: 1rem;
+        font-weight: bold;
+        color: #111;
  }
-
- 
-
-.hero-msg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    padding-top: 150px;
-    color: white;    
-    width: 900px;
-    text-align: center;
-}
 
 .form-container, h2 {
     display: grid;
@@ -291,6 +290,14 @@ footer {
     justify-content: right;
     margin-top: 60px;
     /* padding-left: 60px; */
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 4px;
+    
 }
 
 footer {
