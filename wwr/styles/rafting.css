@@ -14,14 +14,14 @@
     box-sizing: border-box;
 }
 
-.logo {
+.logo-box {
 	margin: 0 0.25rem 0 1rem;
-	width: 64px;
+    padding-left: 60px;
+	width: 100px;
 	height: auto;
 }
 
 header {
-	
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,7 +115,7 @@ h2 {
     margin-top: 40px;
     margin-bottom: 0px;
 }
-
+/* 
 nav {
 	text-align: right;
 }
@@ -143,8 +143,52 @@ nav {
 	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
+} */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00246B;
+    font-size: 1.5rem;
+}
+ 
+nav {
+    padding-right: 150px;
 }
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+header {
+	
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	border-bottom: 1px solid #ccc;
+}
+
+header nav a {
+    text-decoration: none;
+}
 
 .images {
     display: grid;
@@ -172,23 +216,31 @@ figcaption {
 
 footer {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    justify-content: right;
     margin-top: 60px;
+    /* padding-left: 60px; */
 }
 
-footer p {
+footer {
     width: 100%;
+}
+
+
+div.author {
+    flex: .9;
     text-align: center;
 }
 
-
-.sociallinks {
-    text-align: right;
-    width: 100%;
+nav.sociallinks {
+    display: flex;
+    padding: 0;
+    gap: 10px;
 
 }
-.sociallinks img{
-    width: 30px;
-    height: 30px;
+
+.sociallinks img {
+    width: 24px;  
+    height: auto; 
+
 }
