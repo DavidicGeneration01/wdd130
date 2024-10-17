@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,78 +11,89 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo-box">
-            <img src="images/Picture1.jpg" alt="logo" width="150" height="150" />
-          </div>
-
-          <nav>
-            <ul class="navigation">
-                <li><a class="current" href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
+      <div class="logo-box">
+        <img src="images/Picture1.jpg" alt="logo" width="150" height="150" />
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-    <section class="home-hero no-margin">
-        <div class="background-video">
-            <video loop muted autoplay playsinline poster="//cdn.aorafting.com/images/homepage/homepage-video-poster.jpg" fetchpriority="high" class="background-video" id="bgv id">
-                <source src="https://www.aorafting.com/videos/homepage-bgv-v5.webm">
-                <source src="https://www.aorafting.com/videos/homepage-bgv-v5.mp4">
-            </video>
+    <section class="home-hero">
+      <div class="background-video">
+        <video
+          loop
+          muted
+          autoplay
+          playsinline
+          poster="https://cdn.aorafting.com/images/homepage/homepage-video-poster.jpg"
+          fetchpriority="high"
+          class="background-video"
+          id="bgv"
+          width="1349"
+        >
+          <source
+            src="https://www.aorafting.com/videos/homepage-bgv-v5.webm"
+            type="video/webm"
+          />
+          <source
+            src="https://www.aorafting.com/videos/homepage-bgv-v5.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <div class="overlay-text">
+        <h1 class="text-center">Over 67 years of FCT, Abuja, Jabi-Lake</h1>
+        <p class="lead text-center white">
+          Professionally Guided Whitewater Rafting Trips
+        </p>
+        <div class="links">
+          <a href="./about.html" class="btn btn-info btn-lg"
+            >Find Your Trip</a
+          >
         </div>
+        <br />
+        <div class="links">
+          <a href="./contact.html" class="btn btn-primary btn-lg"
+            >Make Your Enquiry</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="author">
+        <p>©2024 ⚓ White Water Rafting ⚓ David Alade</p>
+      </div>
+      <nav class="sociallinks">
+        <a href="https://facebook.com">
 
-        <div class="container hidden-xs">
-            <h1 class="text-center-white"> Over 67 years of FCT, Abuja, Jabi-Lake</h1>
-            <p class="lead text-center white">Professionally Guided Whitewater Rafting Trips</p>
-            <div class="text-center">
-                <a href="/river/wecome.htm" class="btn btn-info btn-lg">Find Your Trip</a>
-            </div>
-            <br>
-                <div class="text-center">
-                    <a href="/contact.htm" class="btn btn-primary btn-lg">Make Your Enquiry</a></div>
-        ::after
-        </div>
-        <a aria-label="play/pause video" href="#" id="PlayPause" class="play-position">
-            <i class="fa fa-pause fa-2x" aria-hidden="true">
-            <!-- ::before -->
-            </i>
+          <img
+            src="images/facebook.svg"
+            alt="Facebook"
+            width="75"
+            height="75"
+          />
         </a>
-        </section>
-          <!--Footer Section  -->
-        <footer>
-    
-          <!-- link to the Contact Us wireframe image -->
-          <!-- https://app.moqups.com/0aga2qJfVZ86DogpX3a29b8h1rtDadVB/view/page/ad64222d5 -->
-          
-          <div class="author">
-            <p>©2024 ⚓ white Water Rafting ⚓ David Alade</p>
-          </div>
-          <nav class="sociallinks">
-            <a href="'https://facebook.com">
-              <img
-                src="images/facebook.svg"
-                alt="Facebook"
-                width="75"
-                height="75"
-              />
-            </a>
-            <a href="https://twiiter.com">
-              <img src="images/twitter.svg" alt="Twitter" width="75" height="75" />
-            </a>
-            <a href="https://instagram.com">
-              <img
-                src="images/instagram.svg"
-                alt="Instagram"
-                width="75"
-                height="75"
-              />
-            </a>
-        </footer>
-    
-</body>
+        <a href="https://twitter.com">
+          <img src="images/twitter.svg" alt="Twitter" width="75" height="75" />
+        </a>
+        <a href="https://instagram.com">
+          <img
+            src="images/instagram.svg"
+            alt="Instagram"
+            width="75"
+            height="75"
+          />
+        </a>
+      </nav>
+    </footer>
+  </body>
 </html>
