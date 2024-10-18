@@ -70,33 +70,6 @@ video [poster] {
   height: 100%;
 }
 
-footer {
-  display: flex;
-  /* align-items: center; */
-  justify-content: right;
-  margin-top: 60px;
-}
-
-footer {
-  width: 100%;
-}
-
-div.author {
-  flex: 0.9;
-  text-align: center;
-}
-
-nav.sociallinks {
-  display: flex;
-  padding: 0;
-  gap: 10px;
-}
-
-.sociallinks img {
-  width: 24px;
-  height: auto;
-}
-
 .home-hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -113,7 +86,8 @@ nav.sociallinks {
   justify-self: center;
   align-self: center;
   color: white;
-  font-size: 1.7em;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 2rem;
   text-align: center;
 }
 .overlay-text a {
@@ -139,7 +113,9 @@ nav.sociallinks {
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 900px;
+  font-size: 3rem;
   color: red;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 
@@ -187,3 +163,49 @@ figcaption p {
   font-size: 1.5rem;  
 }
 
+
+.wrap {
+  background-color: #00246B;
+}
+
+h2.center {
+  color: white;
+  /* font-family: "brush Script MT", cursive; */
+  font-weight: 900px;
+  font-size: 3.5rem;
+  text-shadow: 1px 0px 0px #686868,
+  1px 1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868, -1px 0px 0px #686868, -1px -1px 0px #686868,
+  0px -1px 0px #686868, 1px 4px 5px #aeaeae;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center; 
+}
+
+
+
+footer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: right;
+  margin-top: 60px;
+}
+
+footer {
+  width: 100%;
+}
+
+div.author {
+  flex: 0.9;
+  text-align: center;
+}
+
+nav.sociallinks {
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.sociallinks img {
+  width: 24px;
+  height: auto;
+}
