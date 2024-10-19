@@ -279,11 +279,11 @@ h2.center {
   color: white;
 }
 
-/* .blog-banner img {
-  object-fit: cover;
-  max-width: 1500px;
-  max-height: fit-content;
-} */
+.blog-banner img {
+  /* margin-top: 60px; */
+  width: 1500px; 
+  height:500px;
+}
 
 footer {
   display: flex;
