@@ -62,4 +62,34 @@
   li a:hover:not(.active) {
     background-color: #111;
   }
+
+  footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: right;
+    /* border: 5px green solid; */
+    margin-top: 140px;
+    height: fit-content;
+  }
+  
+  footer {
+    width: 100%;
+  }
+  
+  div.author {
+    flex: 0.9;
+    text-align: center;
+  }
+  
+  nav.sociallinks {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+  }
+  
+  .sociallinks img {
+    width: 24px;
+    height: auto;
+  }
+  
   
