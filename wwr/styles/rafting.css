@@ -225,6 +225,10 @@ footer {
 
 footer {
   width: 100%;
+  background-color: black;
+  padding: 10px;
+  padding-top: 15px;
+  color: white;
 }
 
 div.author {

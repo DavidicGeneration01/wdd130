@@ -343,15 +343,17 @@ h2.center {
 
 footer {
   display: flex;
-  /* align-items: center; */
   justify-content: right;
-  /* border: 5px green solid; */
-  margin-top: 140px;
   height: fit-content;
 }
 
 footer {
   width: 100%;
+  background-color: black;
+  padding: 10px;
+  padding-top: 15px;
+  color: white;
+
 }
 
 div.author {
