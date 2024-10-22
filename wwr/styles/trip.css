@@ -16,6 +16,7 @@
 body {
   max-width: 1500px;
   margin: 0 auto;
+  font-family: "Outfit", sans-serif;
 }
 
 .logo-box {
@@ -60,6 +61,12 @@ header {
   /* border-radius: 5px; */
 }
 
+.hero img {
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -92,13 +99,59 @@ li a:hover:not(.active) {
   background-color: #04aa6d;
 }
 
+.hero h1 {
+  position: absolute;
+  top: 250px;
+  color: white;
+  padding: 10px 0;
+  background-color: rgb(41, 40, 40, 0.6);
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-text a {
+  background-color: #B71C1C;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 10px black;
+  /* margin: rem; */
+}
+
+.overlay-text {
+  justify-self: center;
+  align-self: center;
+  color: white;
+  /* font-family: "Trebuchet MS", sans-serif; */
+  font-size: 2rem;
+  text-align: right;
+  /* z-index: 6; */
+  margin-top: -100px;
+  padding-right: 40px;
+}
+
+.highlight {
+  display: block;
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 50px;
+  font-weight: 900px;
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+
+
 
 footer {
   display: flex;
   /* align-items: center; */
   justify-content: right;
   /* border: 5px green solid; */
-  margin-top: 140px;
+  margin-top: 50px;
   height: fit-content;
 }
 
