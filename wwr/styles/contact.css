@@ -86,7 +86,6 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-
 .hero-msg {
   /* position: absolute; */
   top: 0;
@@ -122,27 +121,26 @@ li a:hover:not(.active) {
   color: #111;
 }
 
-  
 .images {
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
 }
 
-  .images img {
-    width: 400px;
-    height: 220px;
-    border: 2px solid #ccc;
-    border-radius: 5px;    
+.images img {
+  width: 400px;
+  height: 260px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
-  
-  figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-  }
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
 
 .form-container,
 h2 {
