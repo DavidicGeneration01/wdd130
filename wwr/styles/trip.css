@@ -167,7 +167,6 @@ li a:hover:not(.active) {
   display: flex;
   align-items: center;
   justify-content: center;
-
   left: 0;
   bottom: 0;
   width: 95%;
@@ -175,11 +174,30 @@ li a:hover:not(.active) {
   /* transform: translateX(-50%); Center text horizontally */
   color: white; /* Text color */
   background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
-  padding: 0 0 10px 10px;  /* Padding around text */
+  padding: 0 0 10px 10px; /* Padding around text */
   border-radius: 5px 5px 0 0;
   text-align: center;
   box-sizing: border-box;
 }
+
+.testimony {
+  display: block;
+  /* margin-top: 52px; */
+  /* margin-bottom: 50px; */
+  font-weight: 800px;
+  font-size: 1.3rem;
+  /* background-color: black; */
+  padding: 5px;
+  text-align: center;
+}
+
+.text-background {
+  background-color: black;
+  margin: 20px;
+  color: #fff;
+  padding: 60px 100px 40px 100px;
+}
+
 
 
 footer {
