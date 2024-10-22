@@ -86,9 +86,6 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
-.active {
-  background-color: #04aa6d;
-}
 
 .hero-msg {
   /* position: absolute; */
@@ -265,7 +262,7 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #0c0c0c;
   border-radius: 4px;
 }
 
