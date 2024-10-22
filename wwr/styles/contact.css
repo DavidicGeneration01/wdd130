@@ -282,6 +282,7 @@ button {
   margin: 1rem;
   background-color: #007bff;
   color: black;
+  font-weight: bold;
   padding: 6px 15px;
   border: none;
   border-radius: 3px;
