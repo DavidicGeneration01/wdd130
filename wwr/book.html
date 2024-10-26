@@ -1,64 +1,167 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | HTML Form - User Poll</title>
-    <link rel="stylesheet" href="poll-form.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatics.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-<header>
-    <h1>WDD 130 | David Alade | HTML Form - User Poll</h1>
-</header>
-<main>
-    <form>
-        <fieldset>
-            <!-- <legend>Contact Information</legend>
-            <label for="fullname">Full Nmae:</label>
-            <input type="text" id="fullname" name="fullname">
-            <label for="useremail">Email:</label>
-            <input type="email" id="useremail" name="useremail"> -->
-            <legend>Contact Information</legend>
-          
-            <div class="form-item column2">
-                <label>Full Name: <input type="text" name="fullname"></label>
-            </div>
-            <div class="form-item column2">
-                <label>Email: <input type="email" name="useremail"></label>
-            </div>
-        </fieldset>
+  <div>
+    <ul>
+      <li class="form-line" data-type="control_fullname" id="id_3" data-css-selector="id_3"><label class="form-label form-label-left form-label-auto" id="label_3" for="first_3" aria-hidden="false"> Name:<span class="form-required">*</span> </label>
+        <div id="cid_3" class="form-input jf-required">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="first"><input type="text" id="first_3" name="q3_fullName3[first]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_3 given-name" size="10" data-component="first" aria-labelledby="label_3 sublabel_3_first" required="" value="" data-has-listeners="true"><label class="form-sub-label" for="first_3" id="sublabel_3_first" style="min-height:13px">First Name</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="last"><input type="text" id="last_3" name="q3_fullName3[last]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_3 family-name" size="15" data-component="last" aria-labelledby="label_3 sublabel_3_last" required="" value="" data-has-listeners="true"><label class="form-sub-label" for="last_3" id="sublabel_3_last" style="min-height:13px">Last Name</label></span></div>
+        </div>
+      </li>
+      
+      <li class="form-line jf-required" data-type="control_radio" id="id_55" data-css-selector="id_55" style="z-index: 0;"><label class="form-label form-label-left form-label-auto" id="label_55" aria-hidden="false"> Please choose<span class="form-required">*</span> </label>
+        <div id="cid_55" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_55" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_55" type="radio" class="form-radio validate[required]" id="input_55_0" name="q55_pleaseChoose" required="" value="Do a booking" data-has-listeners="true"><label id="label_input_55_0" for="input_55_0">Do a booking</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_55" type="radio" class="form-radio validate[required]" id="input_55_1" name="q55_pleaseChoose" required="" value="Provide a quotation" data-has-listeners="true"><label id="label_input_55_1" for="input_55_1">Provide a quotation</label></span></div>
+        </div>
+      <div class="form-description" style="display: none;"><div class="form-description-arrow"></div><div class="form-description-arrow-small"></div><div class="form-description-content">Choose an option. Booking or quotation.</div></div></li>
 
-        <fieldset>
-            <legend>Questions</legend>  
-            <!-- <label for="browser">What is your favourite internet browser?</label> -->
-            <div class="form-item column1">
-                <label for="browser">What is your favourite internet browser?</label>   
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="safari">Safari</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>    
-            <div class="form-item column1">
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-            </div>
-            <div class="form-item idea">
-                <label for="feedback">List the places you have lived:</label>
-            </div>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
-        </fieldset>
-        <button type="submit">Submit Poll</button>
-    </form>    
-</main>
-<footer>
-    <p>©2024 | HTML Form - User Poll Activity | David Alade</p>
-</footer>
+      <li class="form-line jf-required" data-type="control_email" id="id_4" data-css-selector="id_4"><label class="form-label form-label-left form-label-auto" id="label_4" for="input_4" aria-hidden="false"> E-mail:<span class="form-required">*</span> </label>
+        <div id="cid_4" class="form-input jf-required"> <input type="email" id="input_4" name="q4_email4" class="form-textbox validate[required, Email]" data-defaultvalue="" autocomplete="section-input_4 email" size="50" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_4" required="" value="" data-has-listeners="true"> </div>
+      </li>
+
+      <label class="form-label form-label-left form-label-auto" id="label_55" aria-hidden="false"> Please choose<span class="form-required">*</span> </label>
+      <div id="cid_55" class="form-input jf-required">
+        <div class="form-single-column" role="group" aria-labelledby="label_55" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_55" type="radio" class="form-radio validate[required]" id="input_55_0" name="q55_pleaseChoose" required="" value="Do a booking" data-has-listeners="true"><label id="label_input_55_0" for="input_55_0">Do a booking</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_55" type="radio" class="form-radio validate[required]" id="input_55_1" name="q55_pleaseChoose" required="" value="Provide a quotation" data-has-listeners="true"><label id="label_input_55_1" for="input_55_1">Provide a quotation</label></span></div>
+      </div>
+
+      <div class="form-description" style="display: none;"><div class="form-description-arrow"></div><div class="form-description-arrow-small"></div><div class="form-description-content">Choose an option. Booking or quotation.</div></div>
+
+      <li class="form-line jf-required" data-type="control_email" id="id_4" data-css-selector="id_4"><label class="form-label form-label-left form-label-auto" id="label_4" for="input_4" aria-hidden="false"> E-mail:<span class="form-required">*</span> </label>
+        <div id="cid_4" class="form-input jf-required"> <input type="email" id="input_4" name="q4_email4" class="form-textbox validate[required, Email]" data-defaultvalue="" autocomplete="section-input_4 email" size="50" placeholder="ex: myname@example.com" data-component="email" aria-labelledby="label_4" required="" value="" data-has-listeners="true"> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_phone" id="id_5" data-css-selector="id_5"><label class="form-label form-label-left form-label-auto" id="label_5" for="input_5_area" aria-hidden="false"> Mobile Number:<span class="form-required">*</span> </label>
+        <div id="cid_5" class="form-input jf-required">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_5_area" name="q5_mobileNumber5[area]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_5 tel-area-code" data-component="areaCode" aria-labelledby="label_5 sublabel_5_area" required="" value="" data-has-listeners="true"><span class="phone-separate" aria-hidden="true">&nbsp;-</span><label class="form-sub-label" for="input_5_area" id="sublabel_5_area" style="min-height:13px">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_5_phone" name="q5_mobileNumber5[phone]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_5 tel-local" data-component="phone" aria-labelledby="label_5 sublabel_5_phone" required="" value="" data-has-listeners="true"><label class="form-sub-label" for="input_5_phone" id="sublabel_5_phone" style="min-height:13px">Phone Number</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_phone" id="id_6" data-css-selector="id_6"><label class="form-label form-label-left form-label-auto" id="label_6" for="input_6_area" aria-hidden="false"> Alternative Mobile nr:<span class="form-required">*</span> </label>
+        <div id="cid_6" class="form-input jf-required">
+          <div data-wrapper-react="true"><span class="form-sub-label-container" style="vertical-align:top" data-input-type="areaCode"><input type="tel" id="input_6_area" name="q6_alternativeMobile6[area]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_6 tel-area-code" data-component="areaCode" aria-labelledby="label_6 sublabel_6_area" required="" value="" data-has-listeners="true"><span class="phone-separate" aria-hidden="true">&nbsp;-</span><label class="form-sub-label" for="input_6_area" id="sublabel_6_area" style="min-height:13px">Area Code</label></span><span class="form-sub-label-container" style="vertical-align:top" data-input-type="phone"><input type="tel" id="input_6_phone" name="q6_alternativeMobile6[phone]" class="form-textbox validate[required]" data-defaultvalue="" autocomplete="section-input_6 tel-local" data-component="phone" aria-labelledby="label_6 sublabel_6_phone" required="" value="" data-has-listeners="true"><label class="form-sub-label" for="input_6_phone" id="sublabel_6_phone" style="min-height:13px">Phone Number</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_datetime" id="id_39" data-css-selector="id_39"><label class="form-label form-label-left form-label-auto" id="label_39" for="day_39" aria-hidden="false"> Date of visit:<span class="form-required">*</span> </label>
+        <div id="cid_39" class="form-input jf-required">
+          <div data-wrapper-react="true" class="extended notLiteMode"><span class="form-sub-label-container" style="vertical-align:top"><input class="currentDate form-textbox validate[required, limitDate]" id="day_39" name="q39_dateOf[day]" type="tel" size="2" data-maxlength="2" data-age="" maxlength="2" required="" autocomplete="off" aria-labelledby="label_39 sublabel_39_day" value="22" data-has-listeners="true"><span class="date-separate" aria-hidden="true">&nbsp;-</span><label class="form-sub-label" for="day_39" id="sublabel_39_day" style="min-height:13px">Day</label></span><span class="form-sub-label-container" style="vertical-align:top"><input class="form-textbox validate[required, limitDate]" id="month_39" name="q39_dateOf[month]" type="tel" size="2" data-maxlength="2" data-age="" maxlength="2" required="" autocomplete="off" aria-labelledby="label_39 sublabel_39_month" value="10" data-has-listeners="true"><span class="date-separate" aria-hidden="true">&nbsp;-</span><label class="form-sub-label" for="month_39" id="sublabel_39_month" style="min-height:13px">Month</label></span><span class="form-sub-label-container" style="vertical-align:top"><input class="form-textbox validate[required, limitDate]" id="year_39" name="q39_dateOf[year]" type="tel" size="4" data-maxlength="4" data-age="" maxlength="4" required="" autocomplete="off" aria-labelledby="label_39 sublabel_39_year" value="2024" data-has-listeners="true"><label class="form-sub-label" for="year_39" id="sublabel_39_year" style="min-height:13px">Year</label></span><span class="form-sub-label-container" style="vertical-align:top"><img class="showAutoCalendar newDefaultTheme-dateIcon icon-seperatedMode" alt="Pick a Date" id="input_39_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1"><label class="form-sub-label" for="input_39_pick" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" aria-hidden="true" tabindex="-1">Date Picker Icon</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_spinner" id="id_61" data-css-selector="id_61"><label class="form-label form-label-left form-label-auto" id="label_61" for="input_61" aria-hidden="false"> Number of rafters:<span class="form-required">*</span> </label>
+        <div id="cid_61" class="form-input jf-required"> <span class="form-sub-label-container" style="vertical-align:top"><div tabindex=""><div class="form-spinner" style="width: 180px;"><div class="form-spinner-input-td"><input type="number" id="input_61" name="q61_numberOf61" data-type="input-spinner" class="form-spinner-input  form-textbox validate[required]" data-spinnermin="0" data-defaultvalue="0" data-component="spinner" aria-labelledby="label_61 sublabel_input_61" required="" value="0" size="5" autocomplete="none" data-has-listeners="true"></div><div class="form-spinner-button-container"><div class="form-spinner-button form-spinner-up" style="cursor: default;"><img class="form-spinner-image form-spinner-up-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="up arrow"></div><div class="form-spinner-button form-spinner-down" style="cursor: default;"><img class="form-spinner-image form-spinner-down-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="down arrow"></div></div></div></div><label class="form-sub-label" for="input_61" id="sublabel_input_61" style="min-height:13px">Total nr of rafters participating in the rafting</label></span> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_spinner" id="id_31" data-css-selector="id_31"><label class="form-label form-label-left form-label-auto" id="label_31" for="input_31" aria-hidden="false"> Number of adult rafters:<span class="form-required">*</span> </label>
+        <div id="cid_31" class="form-input jf-required"> <span class="form-sub-label-container" style="vertical-align:top"><div tabindex=""><div class="form-spinner" style="width: 180px;"><div class="form-spinner-input-td"><input type="number" id="input_31" name="q31_numberOf31" data-type="input-spinner" class="form-spinner-input disallowDecimals form-textbox validate[required]" data-spinnermin="0" data-defaultvalue="0" data-component="spinner" aria-labelledby="label_31 sublabel_input_31" required="" value="0" size="5" autocomplete="none" data-has-listeners="true"></div><div class="form-spinner-button-container"><div class="form-spinner-button form-spinner-up" style="cursor: default;"><img class="form-spinner-image form-spinner-up-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="up arrow"></div><div class="form-spinner-button form-spinner-down" style="cursor: default;"><img class="form-spinner-image form-spinner-down-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="down arrow"></div></div></div></div><label class="form-sub-label" for="input_31" id="sublabel_input_31" style="min-height:13px">Adaults participating in the rafting</label></span> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_spinner" id="id_62" data-css-selector="id_62"><label class="form-label form-label-left form-label-auto" id="label_62" for="input_62" aria-hidden="false"> Number of kids age 3 - 10 yr (only allowed on Gate to dome trip)<span class="form-required">*</span> </label>
+        <div id="cid_62" class="form-input jf-required"> <span class="form-sub-label-container" style="vertical-align:top"><div tabindex=""><div class="form-spinner" style="width: 180px;"><div class="form-spinner-input-td"><input type="number" id="input_62" name="q62_numberOf62" data-type="input-spinner" class="form-spinner-input  form-textbox validate[required]" data-spinnermin="0" data-defaultvalue="0" data-component="spinner" aria-labelledby="label_62 sublabel_input_62" required="" value="0" size="5" autocomplete="none" data-has-listeners="true"></div><div class="form-spinner-button-container"><div class="form-spinner-button form-spinner-up" style="cursor: default;"><img class="form-spinner-image form-spinner-up-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="up arrow"></div><div class="form-spinner-button form-spinner-down" style="cursor: default;"><img class="form-spinner-image form-spinner-down-image" src="//cdn.jotfor.ms/assets/img/builder/flat_arrow.svg" alt="down arrow"></div></div></div></div><label class="form-sub-label" for="input_62" id="sublabel_input_62" style="min-height:13px">Kids participating in the rafting</label></span> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_53" data-css-selector="id_53"><label class="form-label form-label-left form-label-auto" id="label_53" for="input_53" aria-hidden="false"> Choose your trip option<span class="form-required">*</span> </label>
+        <div id="cid_53" class="form-input jf-required"> <select class="form-dropdown validate[required]" id="input_53" name="q53_chooseYour" style="width:180px" data-component="dropdown" required="" aria-label="Choose your trip option">
+            <option value=""></option>
+            <option value="Mild to Wild ±4 hr (most popular)">Mild to Wild ±4 hr (most popular)</option>
+            <option value="Gate to Dome ±2 hr">Gate to Dome ±2 hr</option>
+            <option value="Sundowner ±2.5 hr">Sundowner ±2.5 hr</option>
+          </select> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_radio" id="id_54" data-css-selector="id_54"><label class="form-label form-label-left form-label-auto" id="label_54" aria-hidden="false"> Book rafting lunch for my group at R185.00pp (min 8 people)<span class="form-required">*</span> </label>
+        <div id="cid_54" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_54" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_54" type="radio" class="form-radio validate[required]" id="input_54_0" name="q54_bookRafting54" required="" value="Yes" data-has-listeners="true"><label id="label_input_54_0" for="input_54_0">Yes</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_54" type="radio" class="form-radio validate[required]" id="input_54_1" name="q54_bookRafting54" required="" value="No" data-has-listeners="true"><label id="label_input_54_1" for="input_54_1">No</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_radio" id="id_54" data-css-selector="id_54"><label class="form-label form-label-left form-label-auto" id="label_54" aria-hidden="false"> Book rafting lunch for my group at R185.00pp (min 8 people)<span class="form-required">*</span> </label>
+        <div id="cid_54" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_54" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_54" type="radio" class="form-radio validate[required]" id="input_54_0" name="q54_bookRafting54" required="" value="Yes" data-has-listeners="true"><label id="label_input_54_0" for="input_54_0">Yes</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_54" type="radio" class="form-radio validate[required]" id="input_54_1" name="q54_bookRafting54" required="" value="No" data-has-listeners="true"><label id="label_input_54_1" for="input_54_1">No</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_radio" id="id_46" data-css-selector="id_46"><label class="form-label form-label-left form-label-auto" id="label_46" aria-hidden="false"> Private or business<span class="form-required">*</span> </label>
+        <div id="cid_46" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_46" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_46" type="radio" class="form-radio validate[required]" id="input_46_0" name="q46_privateOr" required="" value="Private" data-has-listeners="true"><label id="label_input_46_0" for="input_46_0">Private</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_46" type="radio" class="form-radio validate[required]" id="input_46_1" name="q46_privateOr" required="" value="Business" data-has-listeners="true"><label id="label_input_46_1" for="input_46_1">Business</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_radio" id="id_48" data-css-selector="id_48"><label class="form-label form-label-left form-label-auto" id="label_48" aria-hidden="false"> Language<span class="form-required">*</span> </label>
+        <div id="cid_48" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_48" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_48" type="radio" class="form-radio validate[required]" id="input_48_0" name="q48_language" required="" value="Afrikaans" data-has-listeners="true"><label id="label_input_48_0" for="input_48_0">Afrikaans</label></span><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_48" type="radio" class="form-radio validate[required]" id="input_48_1" name="q48_language" required="" value="English" data-has-listeners="true"><label id="label_input_48_1" for="input_48_1">English</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_dropdown" id="id_59" data-css-selector="id_59"><label class="form-label form-label-left form-label-auto" id="label_59" for="input_59" aria-hidden="false"> Where did you hear about us<span class="form-required">*</span> </label>
+        <div id="cid_59" class="form-input jf-required"> <select class="form-dropdown validate[required]" id="input_59" name="q59_whereDid" style="width:150px" data-component="dropdown" required="" aria-label="Where did you hear about us">
+            <option value=""></option>
+            <option value="Please select" selected="">Please select</option>
+            <option value="Previous visit">Previous visit</option>
+            <option value="Friend or family">Friend or family</option>
+            <option value="Dimalachite website">Dimalachite website</option>
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Other">Other</option>
+          </select> </div>
+      </li>
+
+      <li class="form-line jf-required" data-type="control_radio" id="id_42" data-css-selector="id_42"><label class="form-label form-label-left form-label-auto" id="label_42" for="input_42_0" aria-hidden="false"> Terms &amp; Conditions<span class="form-required">*</span> </label>
+        <div id="cid_42" class="form-input jf-required">
+          <div class="form-single-column" role="group" aria-labelledby="label_42" data-component="radio"><span class="form-radio-item" style="clear:left"><span class="dragger-item"></span><input aria-describedby="label_42" type="radio" class="form-radio validate[required]" id="input_42_0" name="q42_terms" required="" value="We accept Dimalachite's terms &amp; conditions" data-has-listeners="true"><label id="label_input_42_0" for="input_42_0">We accept Dimalachite's terms &amp; conditions</label></span></div>
+        </div>
+      </li>
+
+      <li class="form-line" data-type="control_text" id="id_44" data-css-selector="id_44">
+        <div id="cid_44" class="form-input-wide">
+          <div id="text_44" class="form-html" data-component="text" tabindex="0">
+            <p><span style="color: #0000ff; font-size: 10pt;"><span style="color: #000000;"><span style="background-color: #ffff00;">YOUR QUOTATION:<br></span>Please confirm as soon as possible if we must do the booking for you (depending on availability)</span></span></p>
+            <p><span style="color: #0000ff; font-size: 10pt;"><span style="color: #000000;"><span style="background-color: #ffff00;">YOUR BOOKING:</span> <br>You will receive your booking confirmation.</span></span><br><span style="font-size: 10pt;"><span style="color: #000000;"> To keep the booking we must receive proof of payment for the full amount within 24hr.<br>We will let you know which session (08:30 or 13:00) you are booked.<br>Please confirm with us that we have received payment at 056 818 1860 / 1 / 2 or e-mail res2@dimalachite.co.za<br>Dimalachite's terms and conditions are applicable.</span><span style="color: #0000ff;"><strong><br></strong><span style="color: #000000;">This offer is subject to availability on date requested.</span></span></span></p>
+            <p><span style="color: #0000ff; background-color: #33cccc;"><span style="color: #000000;"><strong>&nbsp; 💥&nbsp; &nbsp;SEE YOU ON THE RIVER! 💥</strong></span></span></p>
+            <p><span style="color: #0000ff; background-color: #33cccc;"><span style="color: #000000;"><strong>&nbsp; &nbsp; &nbsp;💥ENJOY THE RAFTING!!💥&nbsp; &nbsp; &nbsp;</strong></span></span></p>
+          </div>
+        </div>
+      </li>
+
+      <li class="form-line" data-type="control_textarea" id="id_26" data-css-selector="id_26"><label class="form-label form-label-left form-label-auto" id="label_26" for="input_26" aria-hidden="false"> Special request: </label>
+        <div id="cid_26" class="form-input"> <textarea id="input_26" class="form-textarea" name="q26_specialRequest" cols="40" rows="6" data-component="textarea" aria-labelledby="label_26" data-has-listeners="true"></textarea> </div>
+      </li>
+
+      <li class="form-line" data-type="control_text" id="id_41" data-css-selector="id_41">
+        <div id="cid_41" class="form-input-wide">
+          <div id="text_41" class="form-html" data-component="text" tabindex="0">
+            <p><a title="Terms and conditions" href="http://www.malakiet.co.za/index_htm_files/Standard%20trading%20conditions.pdf" target="_blank" rel="nofollow">Dimalachite's terms, conditions and cancelation policy</a></p>
+          </div>
+        </div>
+      </li>
+
+      <li class="form-line" data-type="control_text" id="id_33" data-css-selector="id_33">
+        <div id="cid_33" class="form-input-wide">
+          <div id="text_33" class="form-html" data-component="text" tabindex="0">
+            <p><span style="font-size:x-small;">If the request form doesn't submit, please make sure all fields are complted.</span><br><span style="font-size:x-small;">If you still experience a problem, send us an e-mail by clicking <a title="Request form doesn't submit" href="mailto:hannes@dimalachite.co.za" rel="nofollow">HERE.</a> Thanks.</span></p>
+          </div>
+        </div>
+      </li>
+
+      <li style="display:none">Should be Empty: <input type="text" name="website" value="" data-has-listeners="true"></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
