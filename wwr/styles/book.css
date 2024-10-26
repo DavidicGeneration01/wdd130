@@ -186,7 +186,7 @@ nav ul li a {
     background: url('https://example.com/white-water-rafting.jpg') no-repeat center center/cover;
     padding: 60px 20px;
     text-align: center;
-    color: white;
+    color: rgb(38, 79, 130);
 }
 
 #hero h2 {
@@ -199,6 +199,7 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    
 }
 
 section {
