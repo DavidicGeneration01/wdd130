@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-color: #538ddf;
   --secondary-color: #ffffff;
   --accent1-color: #4f495a;
@@ -37,7 +37,7 @@ header {
   display: flex;
   gap: 20px; /* Space between links */
 }
-
+/* 
 .nav-links li {
   display: inline;
 }
@@ -54,7 +54,7 @@ header {
   /* border-radius: 5px; */
 }
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -99,7 +99,7 @@ li a:hover:not(.active) {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-}
+} */ */ */
 
 section {
   padding: 20px;
