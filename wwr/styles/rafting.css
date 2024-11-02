@@ -33,7 +33,6 @@ header {
   align-items: center;
 }
 
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -48,7 +47,7 @@ header {
   color: white;
   text-decoration: none;
   padding: 5px 10px;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 
 .nav-links a:hover {
